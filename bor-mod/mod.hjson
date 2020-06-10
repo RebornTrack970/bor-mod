@@ -1,0 +1,6 @@
+name: "bor-mod"
+displayName: "Bu basit bir bor modu!" //what displays in the mod selection menu
+author: "RTOmega"
+description: "Oyuna bor ekliyor..."
+version: "1.0"
+minGameVersion: "103"

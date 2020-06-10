@@ -1,0 +1,10 @@
+name: Bor Duvar
+description: Çok kaliteli, bordan bir duvar.
+type: Wall
+health: 1000
+size: 2
+requirements: [
+  bor/40
+]
+category: defense
+research: copper-wall

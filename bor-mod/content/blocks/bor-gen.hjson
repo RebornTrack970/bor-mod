@@ -1,0 +1,23 @@
+type: SingleTypeGenerator
+name: Bor Füzyonatör
+description: Bordan elektrik üretir.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 1.2
+consumes: {
+  items: {
+    items: [
+      bor/1
+    ]
+    optional: true
+  }
+}
+requirements: [
+  metaglass/80
+  silicon/60
+  copper/50
+]
+category: power
+research: powernode

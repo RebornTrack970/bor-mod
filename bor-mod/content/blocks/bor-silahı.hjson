@@ -1,0 +1,27 @@
+type: DoubleTurret
+name: Bor Silahı
+description: Bor spamler.
+health: 200
+size: 1
+reload: 4
+range: 110
+ammoUseEffect: shellEjectSmall
+inaccuracy: 10
+rotatespeed: 12
+ammo: {
+  bor: {
+    speed: 4
+    damage: 2
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+  }
+}
+requirements: [
+  bor/40
+  copper/70
+]
+category: turret
+research: duo
